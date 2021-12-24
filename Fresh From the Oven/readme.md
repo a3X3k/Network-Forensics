@@ -6,7 +6,7 @@
 
 ## Message
 
-```js
+```
 Hello, Rohith!
 
 Hii, Shyam!
@@ -41,7 +41,7 @@ Transferring files....
 
 ## Decrypted Message
 
-```js
+```
 Ymnx nx f xfruqj ns ymfy jshtiji bfd
 This is a sample in that encoded way
 
@@ -109,8 +109,6 @@ zsteg -E b1,bgr,lsb,xy flag.png
 ```
 
 - Grepping with `strings` gives the flag.
-
-![image](https://user-images.githubusercontent.com/52845731/147371751-81e2a6cd-92e7-4fc9-b214-3c772e4e3161.png)
 
 ```py
 zsteg -E b1,bgr,lsb,xy flag.png | strings | grep -i inctf 
