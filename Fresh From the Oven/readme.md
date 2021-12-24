@@ -100,7 +100,7 @@ with open("1.pdf", "w") as g:
 - ZIP file is password protected.
 - Use `fcrackzip` to crack the password.
 
-![image](https://user-images.githubusercontent.com/52845731/147371606-101c6846-02d1-4855-bd5f-a1c8c1a0265f.png)
+![image](https://user-images.githubusercontent.com/52845731/147371739-22c868a9-b219-4783-b47c-ef8a0a80af3d.png)
 
 - We have got a PNG on unzipping it. 
 - Analysing it with `zsteg -a` shows some `1MLorem ipsum text` in the LSB.
@@ -110,9 +110,11 @@ with open("1.pdf", "w") as g:
 zsteg -E b1,bgr,lsb,xy flag.png
 ```
 
-![image](https://user-images.githubusercontent.com/52845731/147371704-3f1603e2-92b9-4b07-b980-b0588deff7ea.png)
+![image](https://user-images.githubusercontent.com/52845731/147371745-77b1d921-858b-466f-85d2-2feed410d3c8.png)
 
 - Grepping with `strings` gives the flag.
+
+![image](https://user-images.githubusercontent.com/52845731/147371751-81e2a6cd-92e7-4fc9-b214-3c772e4e3161.png)
 
 ```py
 zsteg -E b1,bgr,lsb,xy flag.png | strings | grep -i inctf 
