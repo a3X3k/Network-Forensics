@@ -63,34 +63,36 @@ Okay, sure:)
 ```py
 from scapy.all import *
 
-f=rdpcap('1.pcap')
+f = rdpcap('1.pcap')
 
-a=""
-b=""
-c=""
-temp=""
+a = ""
+b = ""
+c = ""
+temp = ""
 
 for i in f[TCP]:
 
-    if i.dport==81 or i.dport==444:
+    if i.dport == 81 or i.dport == 444:
     
         temp = str(i[TCP].payload)
         
         for j in temp:
         
-            b = chr((ord(j)-5)%256) # Shift by 5
+            b = chr((ord(j)-5) % 256) # Shift by 5
             
-            if i.dport==81: # Extract ZIP file
+            if i.dport == 81: # Extract ZIP file
               a += b 
               
-            if i.dport==444: # Extract PDF file
+            if i.dport == 444: # Extract PDF file
               c += b 
     
 with open("1.zip", "w") as g:
+
     g.write(a)
     g.close()
 
 with open("1.pdf", "w") as g:
+
     g.write(c)
     g.close()
 ```
