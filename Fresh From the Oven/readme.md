@@ -114,6 +114,6 @@ zsteg -E b1,bgr,lsb,xy flag.png | strings | grep -i inctf
 
 ### Flag
 
-```py
+```
 inctf{3ach_4nd_3v3ry_s3cre7_inf0rm4t10n_w1ll_b3_kn0wn_by_wir3shark!!!!!_:)}
 ```
