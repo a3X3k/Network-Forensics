@@ -98,9 +98,7 @@ with open("1.pdf", "w") as g:
 - PDF file contains only some `Lorem ipsum` text.
 - Trying `peepdf` doesn't give anything.
 - ZIP file is password protected.
-- Use `fcrackzip` to crack the password.
-
-![image](https://user-images.githubusercontent.com/52845731/147371739-22c868a9-b219-4783-b47c-ef8a0a80af3d.png)
+- Using fcrackzip, the password has been found as `johnjandroveclarkmichaelkent`.
 
 - We have got a PNG on unzipping it. 
 - Analysing it with `zsteg -a` shows some `1MLorem ipsum text` in the LSB.
@@ -109,8 +107,6 @@ with open("1.pdf", "w") as g:
 ```py
 zsteg -E b1,bgr,lsb,xy flag.png
 ```
-
-![image](https://user-images.githubusercontent.com/52845731/147371745-77b1d921-858b-466f-85d2-2feed410d3c8.png)
 
 - Grepping with `strings` gives the flag.
 
