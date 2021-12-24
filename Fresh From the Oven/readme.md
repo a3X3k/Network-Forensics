@@ -95,13 +95,9 @@ with open("1.pdf", "w") as g:
     g.close()
 ```
 
-- PDF file contains only some `Lorem ipsum` text.
-- Trying `peepdf` doesn't give anything.
-- ZIP file is password protected.
-- Using fcrackzip, the password has been found as `johnjandroveclarkmichaelkent`.
-
-- We have got a PNG on unzipping it. 
-- Analysing it with `zsteg -a` shows some `1MLorem ipsum text` in the LSB.
+- PDF file contains some `Lorem ipsum` text and trying `peepdf` doesn't give anything.
+- ZIP file is password protected and using fcrackzip, the password has been found as `johnjandroveclarkmichaelkent`.
+- On analysing the extracted PNG with `zsteg -a` shows some `1MLorem ipsum text` in the LSB.
 - On extracting the entire LSB payload from the image, gives some unprintable characters.
 
 ```py
