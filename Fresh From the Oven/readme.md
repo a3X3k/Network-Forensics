@@ -4,7 +4,7 @@
 - So now we got an idea that all the messages are transmitted through `TCP` protocol.
 - Now apply the TCP filter as `tcp` in wireshark and analyze the TCP packets.
 
-## Message
+## Transmitted Message
 
 ```
 Hello, Rohith!
