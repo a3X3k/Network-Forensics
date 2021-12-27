@@ -23,7 +23,7 @@ k2U=
 =+x+V
 ```
 
-- In order to decipher the message we need, a Passphrase and a PGP PRIVATE KEY. 
+- In order to decipher the message we need, a **Passphrase** and a **PGP PRIVATE KEY**. 
 
 ## Passphrase 
 
