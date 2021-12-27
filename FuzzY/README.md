@@ -1,6 +1,6 @@
 # FuzzY
 
-- On following the TCP stream, we shall get the **Base64** encoded text and the PGP message with a URL.
+- On following the TCP stream, we shall get the **Base64** encoded text and the **PGP Message** with a URL.
 
 ![image](https://user-images.githubusercontent.com/52845731/147497443-8f61ce12-6ccc-404c-921d-fcb94bcc16ad.png)
 
@@ -101,7 +101,9 @@ zdZ/
 -----END PGP PRIVATE KEY BLOCK-----
 ```
 
-- [Decrypting](https://www.igolder.com/PGP/decryption/) it gives the flag.
+- On [Decyphering](https://www.igolder.com/PGP/decryption/) the **PGP Message** using the **Passphrase** and a **PGP PRIVATE KEY** gives the flag.
+
+### Flag
 
 ```
 flag{eNcryP7!ng_t0_PgP_1s_r34LLy_Pre3tY_g00D_pr1V4cY}
