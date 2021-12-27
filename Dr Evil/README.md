@@ -38,6 +38,6 @@ And when Dr. Evil gets angry, Mr. Bigglesworth gets upset. And when Mr. Bigglesw
 
 ### Flag
 
-```py
+```c
 midnight{1_Milli0n_evil_b1tz!}
 ```
