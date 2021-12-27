@@ -16,9 +16,12 @@ a = ""
 b = ""
 
 for i in p:
+
     if i[IP].src == '52.15.194.28':
+    
         if i[IP].flags == 'evil':
             a += '1'
+            
         else:
             a += '0'
         
