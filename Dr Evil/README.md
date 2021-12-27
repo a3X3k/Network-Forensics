@@ -1,7 +1,9 @@
 # Dr Evil
 
-- By analysing the PCAP, we shall figure out that the **Reserved Bits** (or) **Evil Bits** in the IPv4 Packet. 
-- These are the unused bit in the IPv4 packet header, which can be used to indicate whether a packet had been sent with malicious intent. 
+- By analysing the PCAP, we shall figure out that the **Reserved Bits** (or) **Evil Bits** in the **IPv4** Packet. 
+- These are the unused bit in the **IPv4** packet header, which can be used to indicate whether a **packet** had been sent with **malicious intent**. 
+- Using this idea, the data has been sent in evil bits of the IPv4 headers. 
+- Extracting the bits gives the transmitted data in the **binary** format since the bit can either be **set (1)** or **unset (0)**.
 
 ### Python Script
 
