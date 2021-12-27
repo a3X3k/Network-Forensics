@@ -103,7 +103,7 @@ zdZ/
 
 - On [Decyphering](https://www.igolder.com/PGP/decryption/) the **PGP Message** using the **Passphrase** and a **PGP PRIVATE KEY** gives the flag.
 
-### Flag
+## Flag
 
 ```
 flag{eNcryP7!ng_t0_PgP_1s_r34LLy_Pre3tY_g00D_pr1V4cY}
