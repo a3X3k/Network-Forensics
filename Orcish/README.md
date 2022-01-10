@@ -40,9 +40,3 @@ with open("final.gif", "w") as g:
 ```
 
 - After `compliling` and `running` the `script` we shall get the `GIF` file.
-
-[PCAP File -- ](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Orcish/data.pcap)
-[Script -- ](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Orcish/1.py)
-[GIF File](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Orcish/final.gif)
-
-![Bi0s](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Orcish/final.gif?raw=true)
