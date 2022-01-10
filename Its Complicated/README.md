@@ -42,10 +42,3 @@ with open("final.zip", "w") as g: # Write to the File
 ```
 Password --> craccer
 ```
-
-[PCAP File -- ](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Its%20Complicated/1.pcap)
-[Script -- ](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Its%20Complicated/1.py)
-[Zip File -- ](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Its%20Complicated/final.zip)
-[JPG File](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Its%20Complicated/flag.jpg)
-
-![Bi0s](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Its%20Complicated/flag.jpg?raw=true)
