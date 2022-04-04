@@ -20,7 +20,7 @@
 
 ![Bi0s](https://github.com/a3X3k/Training/blob/main/Forensics/Network/Assets/20.jpeg?raw=true)
 
-```
+```py
 from scapy.all import *
 
 f=rdpcap('data.pcap')
